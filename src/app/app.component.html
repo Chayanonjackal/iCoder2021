@@ -1,0 +1,35 @@
+<!-- <app-ma4jay3></app-ma4jay3> -->
+<!-- <br>
+<app-action-bar  [(number)]="actionBarNumber1"(numberChange)="sumResult()" [notBelow]="0" [step]="1"      [notMore]="100"></app-action-bar> {{actionBarNumber1}}
+<app-action-bar [(number)]="actionBarNumber2" (numberChange)="sumResult()" [notBelow]="-10" [step]="10"   [notMore]="200"></app-action-bar> {{actionBarNumber2}} -->
+          <!-- [number]="actionBarNumber3" (numberChange)="actionBarNumber2=$event; ตัวเต็ม -->
+<!-- <app-action-bar [(number)]="actionBarNumber3" (numberChange)="sumResult()" [notBelow]="-200" [step]="100" [notMore]="400"></app-action-bar> {{actionBarNumber3}}
+<div>
+  ผลรวม {{result}}
+</div>
+<br> -->
+<!-- <button (click)="">คำนวณ</button> -->
+<!-- {{actionBarNumber1}}
+{{actionBarNumber2}}
+{{actionBarNumber3}} -->
+<!-- <button (click)="actionBarNumber1=100" type="button">changactionBarNumber1</button>
+<button (click)="actionBarNumber2=0" type="button">changactionBarNumber2</button>
+<button (click)="actionBarNumber3=400" type="button">changactionBarNumber3</button>
+<br>
+<input type="text" pInputText />
+<br>
+<button pButton pRipple type="button" icon="pi pi-check" class="p-button-rounded"></button> -->
+
+
+<div class="container">
+  <header class="container-header">
+    <span [routerLink]="['home']">Home</span>
+    <span [routerLink]="['student']">Student</span>
+    <span [routerLink]="['add']">Add Student</span>
+  </header>
+  <main class="container-main">
+    <router-outlet></router-outlet>
+    <!-- ใช้แสดงผลจุดกำเนิด component เมื่อเกิด route -->
+
+  </main>
+</div>

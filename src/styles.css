@@ -12,6 +12,29 @@
   align-items: center;
   column-gap: 0.5em;
 }
-
-
+.query-container {
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-content: center; */
+  place-content: center;
+  grid-column-gap: 0.5em;
+  column-gap: 0.5em;
+  padding: 0.5em;
+}
+.table-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.control-button-table {
+  display: flex;
+  justify-content: flex-end;
+}
+.student-form {
+  place-content: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  align-items: center;
+  place-items: center;
+}
 

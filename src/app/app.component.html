@@ -26,10 +26,27 @@
     <span [routerLink]="['home']">Home</span>
     <span [routerLink]="['student']">Student</span>
     <span [routerLink]="['add']">Add Student</span>
+    <span [routerLink]="['pokemon']">Pokamon</span>
   </header>
   <main class="container-main">
-    Hello Github
+
+    <!-- <p-button (onClick)="tranform5BathtoBath()" label="Calculate" ></p-button>
+    <p-button (onClick)="Sum()" label="Sum" ></p-button>
     <br>
+    เหรียญ 5 บาท :{{fiveBathList | json}}
+    <br>
+    เหรียญบาท : {{oneBathList | json}}
+    <br>
+    ผลรวม {{summary}}
+    <br>
+    <br>โจทย์ใหม่ tenBathList = [4,10,8,20,50];
+    <br>
+    <p-button (onClick)="tranform10BathtoBath()" label="Calculate"></p-button>
+    <p-button (onClick)="Sum5()" label="Sum"></p-button>
+    <br> เหรียญ 10 บาท :{{tenBathList | json}}
+    <br> เหรียญ 5 บาท : {{toFiveBathList | json}}
+    <br> ผลรวมเหรียญ 5 บาท :{{summary5Bath | json}} -->
+
     <router-outlet></router-outlet>
     <!-- ใช้แสดงผลจุดกำเนิด component เมื่อเกิด route -->
 
